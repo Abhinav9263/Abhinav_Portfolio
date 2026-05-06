@@ -61,7 +61,7 @@ const About = () => {
               <div className="relative max-w-md mx-auto">
                 <div className="rounded-2xl overflow-hidden border-4 border-card shadow-xl">
                   <img
-                    src="images/About_Me_Pic.jpeg"
+                    src={`${import.meta.env.BASE_URL}images/About_Me_Pic.jpeg`}
                     alt="Profile"
                     className="w-full h-auto object-cover"
                   />

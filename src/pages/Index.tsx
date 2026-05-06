@@ -123,7 +123,7 @@ const Index = () => {
                 <Link to="/projects" className="btn-primary">
                   View Projects <ArrowRight className="w-5 h-5" />
                 </Link>
-                <a href="/Abhinav_Resume_ML.pdf" download="Abhinav_Resume_ML.pdf" className="btn-outline">
+                <a href={`${import.meta.env.BASE_URL}Abhinav_Resume_ML.pdf`} download="Abhinav_Resume_ML.pdf" className="btn-outline">
                   <Download className="w-5 h-5" /> Download Resume
                 </a>
                 <Link to="/contact" className="btn-outline">
@@ -142,7 +142,7 @@ const Index = () => {
               <div className="relative">
                 <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
                   <img
-                    src="images/photo.jpg?w=400&h=400&fit=crop&crop=face"
+                    src={`${import.meta.env.BASE_URL}images/photo.jpg`}
                     alt="Profile"
                     className="w-full h-full object-cover"
                   />

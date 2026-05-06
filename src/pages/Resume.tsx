@@ -24,7 +24,7 @@ const Resume = () => {
               Download my resume or view a summary of my qualifications
             </p>
             <a
-              href="/Abhinav_Resume_ML.pdf"
+              href={`${import.meta.env.BASE_URL}Abhinav_Resume_ML.pdf`}
               download="Abhinav_Resume_ML.pdf"
               className="btn-primary inline-flex"
             >
@@ -50,7 +50,7 @@ const Resume = () => {
               
               <div className="aspect-[8.5/11] bg-secondary rounded-lg overflow-hidden border border-border">
                 <iframe 
-                  src="/Abhinav_Resume_ML.pdf" 
+                  src={`${import.meta.env.BASE_URL}Abhinav_Resume_ML.pdf`} 
                   className="w-full h-full border-none" 
                   title="Resume Preview"
                 />

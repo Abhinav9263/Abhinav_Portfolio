@@ -1,3 +1,5 @@
+const BASE = import.meta.env.BASE_URL;
+
 export const projectsData = [
   {
     id: 'parkin',
@@ -38,7 +40,7 @@ export const projectsData = [
     title: 'NAFLD_XAI – Liver Disease Detection with Explainable AI',
     description: 'Built XGBoost-based pipeline for NAFLD staging using clinical data with SHAP and LIME interpretability.',
     fullDescription: 'Built XGBoost pipeline for NAFLD staging using clinical data. Applied SMOTE for class imbalance, achieving 80%+ accuracy. Integrated SHAP and LIME for model interpretability.',
-    image: '/images/NAFLD.jpg', // NAFLD image
+    image: `${BASE}images/NAFLD.jpg`,
     category: 'AI/ML',
     technologies: ['Python', 'XGBoost', 'SHAP', 'LIME', 'Pandas', 'Streamlit'],
     github: 'https://github.com/Abhinav9263/NAFLD_Prediction_XAI',
@@ -261,45 +263,45 @@ export const certificationsData = [
   {
     category: 'Competitions & Hackathons',
     certificates: [
-      { name: 'GenFusion AI Competition', issuer: 'Tech Fest BIT', year: '2025', link: '#', image: '/Certificates/Genfusion.png' },
-      { name: 'Envision Software Competition', issuer: 'Tech Fest BIT', year: '2025', link: '#', image: '/Certificates/Envision.png' },
-      { name: 'Electronovation', issuer: 'Tech Fest BIT', year: '2025', link: '#', image: '/Certificates/Electronovation.png' },
-      { name: 'Build with India Hackathon', issuer: 'National Level', year: '2024', link: '#', image: '/Certificates/Build With India Hackthon Certifucate.jpeg' },
+      { name: 'GenFusion AI Competition', issuer: 'Tech Fest BIT', year: '2025', link: '#', image: `${BASE}Certificates/Genfusion.png` },
+      { name: 'Envision Software Competition', issuer: 'Tech Fest BIT', year: '2025', link: '#', image: `${BASE}Certificates/Envision.png` },
+      { name: 'Electronovation', issuer: 'Tech Fest BIT', year: '2025', link: '#', image: `${BASE}Certificates/Electronovation.png` },
+      { name: 'Build with India Hackathon', issuer: 'National Level', year: '2024', link: '#', image: `${BASE}Certificates/Build With India Hackthon Certifucate.jpeg` },
     ],
   },
   {
     category: 'AI & Machine Learning',
     certificates: [
-      { name: 'Crash Course in AI', issuer: 'Google', year: '2024', link: '#', image: '/Certificates/Crash Course in AI_page-0001.jpg' },
-      { name: 'Crash Course in Machine Learning', issuer: 'Google', year: '2024', link: '#', image: '/Certificates/Crash Course in Machine Learning_page-0001.jpg' },
-      { name: 'Intro to GenAI', issuer: 'GDSC', year: '2024', link: '#', image: '/Certificates/Intro_to_GenAI_GDSC2024.jpg' },
+      { name: 'Crash Course in AI', issuer: 'Google', year: '2024', link: '#', image: `${BASE}Certificates/Crash Course in AI_page-0001.jpg` },
+      { name: 'Crash Course in Machine Learning', issuer: 'Google', year: '2024', link: '#', image: `${BASE}Certificates/Crash Course in Machine Learning_page-0001.jpg` },
+      { name: 'Intro to GenAI', issuer: 'GDSC', year: '2024', link: '#', image: `${BASE}Certificates/Intro_to_GenAI_GDSC2024.jpg` },
     ],
   },
   {
     category: 'Cloud & IoT',
     certificates: [
-      { name: 'AWS IoT Foundation', issuer: 'AWS', year: '2026', link: '#', image: '/Certificates/AWS_IoT_Foundation.jpg' },
-      { name: 'Handling AWS IoT', issuer: 'AWS', year: '2026', link: '#', image: '/Certificates/Handling_AWS_IoT.jpg' },
-      { name: 'Mastering AWS IoT Devices', issuer: 'AWS', year: '2026', link: '#', image: '/Certificates/Mastering_AWS_IoT_Devices.jpg' },
+      { name: 'AWS IoT Foundation', issuer: 'AWS', year: '2026', link: '#', image: `${BASE}Certificates/AWS_IoT_Foundation.jpg` },
+      { name: 'Handling AWS IoT', issuer: 'AWS', year: '2026', link: '#', image: `${BASE}Certificates/Handling_AWS_IoT.jpg` },
+      { name: 'Mastering AWS IoT Devices', issuer: 'AWS', year: '2026', link: '#', image: `${BASE}Certificates/Mastering_AWS_IoT_Devices.jpg` },
     ],
   },
   {
     category: 'Programming & Others',
     certificates: [
-      { name: 'Data Structures & Algorithms in Python', issuer: 'Udemy', year: '2025', link: '#', image: '/Certificates/Python_Udemy_DSA_2025.jpeg' },
-      { name: 'Global Photography Competition', issuer: 'Global', year: '2024', link: '#', image: '/Certificates/Global_Photography_Compition.jpg' },
+      { name: 'Data Structures & Algorithms in Python', issuer: 'Udemy', year: '2025', link: '#', image: `${BASE}Certificates/Python_Udemy_DSA_2025.jpeg` },
+      { name: 'Global Photography Competition', issuer: 'Global', year: '2024', link: '#', image: `${BASE}Certificates/Global_Photography_Compition.jpg` },
     ],
   }
 ];
 
 export const galleryData = [
-  { id: 1, title: 'AWS Community Day', image: '/Gallary_/Aws_CommunityDay.jpeg', category: 'Event' },
-  { id: 2, title: 'AWS Community Day Part 2', image: '/Gallary_/Aws_CommunityDay_.jpeg', category: 'Event' },
-  { id: 3, title: 'Cloud Native Event', image: '/Gallary_/Cloud_Native_Event1.jpeg', category: 'Event' },
-  { id: 4, title: 'Cloud Native Event Part 2', image: '/Gallary_/Cloud_Native_Event2.jpeg', category: 'Event' },
-  { id: 5, title: 'Exploring Nature', image: '/Gallary_/Exploring_Narure.jpeg', category: 'Life' },
-  { id: 6, title: 'Park', image: '/Gallary_/Park.jpeg', category: 'Life' },
-  { id: 7, title: 'Traveling', image: '/Gallary_/Traveling_.jpeg', category: 'Life' },
+  { id: 1, title: 'AWS Community Day', image: `${BASE}Gallary_/Aws_CommunityDay.jpeg`, category: 'Event' },
+  { id: 2, title: 'AWS Community Day Part 2', image: `${BASE}Gallary_/Aws_CommunityDay_.jpeg`, category: 'Event' },
+  { id: 3, title: 'Cloud Native Event', image: `${BASE}Gallary_/Cloud_Native_Event1.jpeg`, category: 'Event' },
+  { id: 4, title: 'Cloud Native Event Part 2', image: `${BASE}Gallary_/Cloud_Native_Event2.jpeg`, category: 'Event' },
+  { id: 5, title: 'Exploring Nature', image: `${BASE}Gallary_/Exploring_Narure.jpeg`, category: 'Life' },
+  { id: 6, title: 'Park', image: `${BASE}Gallary_/Park.jpeg`, category: 'Life' },
+  { id: 7, title: 'Traveling', image: `${BASE}Gallary_/Traveling_.jpeg`, category: 'Life' },
 ];
 
 export const blogData = [
